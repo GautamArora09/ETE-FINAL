@@ -1,0 +1,75 @@
+.cls-1 {
+    fill: #04aa6b;
+}
+
+.cls-2 {
+    font-size: 23px;
+}
+
+.cls-2,
+.cls-3,
+.cls-4 {
+    fill: #fff;
+}
+
+.cls-2,
+.cls-3 {
+    font-family: RobotoMono-Medium, Roboto Mono;
+    font-weight: 500;
+}
+
+.cls-3 {
+    font-size: 20.08px;
+}
+.kickStart_section {
+    background-color: #282A35;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.kickStart_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.kickStart_container h1 {
+    color: #FFC0C7;
+    font-size: 50px;
+}
+
+.kickStart_container a {
+    font-size: 20px;
+    background-color: #04aa6b;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.kickstart_certified {
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    right: 20px;
+}
+
+.kickstart_arrow {
+    display: none;
+}
+
+@media all and (min-width:850px) {
+    .kickstart_certified {
+        /* display: flex; */
+        width: 300px;
+        position: absolute;
+        top: auto;
+        bottom: -50px;
+        right: 50px;
+        display: flex;
+    }
+
+    .kickstart_arrow {
+        display: block;
+        width: 200px;
+    }
+}

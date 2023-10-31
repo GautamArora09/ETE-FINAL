@@ -1,0 +1,42 @@
+.codeGame_container {
+    text-align: center;
+    background-color: #96D4D4;
+    padding: 50px 20px;
+
+}
+
+.codeGame_container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codeGame_container h1 {
+    font-size: 55px;
+    margin: 0;
+    font-family: 'Freckle Face', cursive;
+}
+
+.codeGame_container p {
+    font-size: 21px;
+    font-family: 'Freckle Face', cursive;
+}
+
+.codeGame_container button {
+    padding: 10px 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+}
+
+.codeGame_container button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.codeGameBtn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

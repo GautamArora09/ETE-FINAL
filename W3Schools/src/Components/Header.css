@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+}
+
+header {
+    height: 75px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.w3schools-logo {
+    width: 60px;
+    padding: 0px 8px;
+    margin-right: 5px;
+}
+
+.w3schools-logo img {
+    width: 100%;
+}
+
+/****header-left***************/
+.header-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* .header-left  */
+.menu-btn {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 0px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-left .menu-btn:hover {
+    background-color: #04AA6D;
+    color: white;
+
+}
+
+.header-left .menu-btn:first-child {
+    padding: 0;
+
+}
+
+.header-left .menu-btn:first-child:hover {
+    background-color: transparent;
+
+}
+
+.fa-solid {
+    padding: 0px 3px;
+
+}
+
+
+/******************header right**************/
+.toggleLightDark {
+    transform: rotate(180deg);
+}
+
+.toggleLightDark:hover {
+    color: var(--bs-green);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 18px;
+}
+
+.header-right a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    min-width: 50px;
+}
+
+
+
+
+
+#upgrade-btn {
+    display: none;
+}
+
+#getCertified,
+#video-btn {
+    display: none;
+}
+
+#freeWebsite {
+    display: none;
+}
+
+#Tutorial-btn,
+#references-btn,
+#exercises-btn {
+    display: none;
+}
+
+#Menu-btn-Mobile {
+    display: flex;
+}
+
+.toggleLightDark {
+    display: none;
+}
+
+.toggle_Search,
+.toggleTranslate {
+    display: none;
+}
+
+/*****responsive********/
+@media all and (min-width:1305px) {
+    #upgrade-btn {
+        display: block;
+    }
+}
+
+@media all and (min-width:1200px) {
+    #getCertified {
+        display: block;
+    }
+
+    #video-btn {
+        display: flex;
+    }
+}
+
+@media all and (min-width:950px) {
+    #freeWebsite {
+        display: block;
+    }
+}
+
+@media all and (min-width:850px) {
+
+    #Tutorial-btn,
+    #references-btn,
+    #exercises-btn {
+        display: flex;
+    }
+
+    #Menu-btn-Mobile {
+        display: none;
+    }
+}
+
+@media all and (min-width:600px) {
+    .toggleLightDark {
+        display: block;
+    }
+}
+
+@media all and (min-width:425px) {
+    .header-right a:last-child {
+        padding: 10px 45px;
+
+    }
+}
+
+@media all and (min-width:375px) {
+
+    .toggle_Search,
+    .toggleTranslate {
+        display: block;
+    }
+}

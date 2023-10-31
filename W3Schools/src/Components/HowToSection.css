@@ -1,0 +1,125 @@
+.howtosection_section {
+    padding: 50px 10px;
+}
+
+.howtoSection_container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.howtoSection_container h1 {
+    font-size: 55px;
+    margin: 0;
+}
+
+.howtoSection_container p {
+    font-size: 21px;
+}
+
+.howtosection_list {
+    display: flex;
+    overflow: hidden;
+
+}
+
+.howtoSecton_item {
+    transform: translateX(-0%);
+    position: relative;
+}
+
+.howtosection_ImageSlider {
+    position: relative;
+}
+
+.howtoSection_button {
+    position: absolute;
+    top: 0;
+    bottom: 70px;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.howtoSection_button button {
+    font-size: 20px;
+    border: none;
+    color: var(--bs-white);
+    background: transparent;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.howtoSection_button button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.howtosection_active_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.howtosection_active_image div {
+    padding: 10px;
+    background-color: rgb(240, 236, 236);
+    margin: 3px;
+    background-color: rgb(196, 190, 190);
+    border-radius: 10px;
+    ;
+}
+
+.howtosection_active_image .activeImage {
+    background-color: rgb(114, 111, 111);
+}
+
+
+.howtoSecton_item p:first-child {
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 10px;
+}
+
+.howtoSecton_item p:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.howtosection_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.verticalBox {
+    width: 50px;
+    height: 100px;
+    background-color: var(--bs-black);
+}
+
+.howtosection_bottom a {
+    background-color: var(--bs-black);
+    color: var(--bs-white);
+    display: block;
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.howtosection_bottom a:hover {
+    background-color: var(--bs-green);
+}

@@ -1,0 +1,18 @@
+.colorSection {
+    padding: 50px 20px;
+    text-align: center;
+    /* background-color: var(--bs-neoWhite); */
+}
+
+.colorSection h1 {
+    font-size: 55px;
+}
+
+.colorSection p {
+    font-size: 21px;
+}
+
+.colorSection img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

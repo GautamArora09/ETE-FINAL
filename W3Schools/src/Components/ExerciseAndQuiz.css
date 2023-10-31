@@ -1,0 +1,51 @@
+.section_exercise {
+    background-color: #282A35;
+    padding: 50px 20px;
+}
+
+.section_exercise_container {
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bg-green{
+    background-color: #1cc084;
+    color: white;
+}
+.bg-yellow{
+    background-color: #f5ea99;
+}
+
+.section_exercise_container h1 {
+    font-size: 55px;
+    margin: 0;
+    color: #ffffff
+}
+
+.section_exercise_container p {
+    font-size: 21px;
+    color: #ffffff
+}
+
+.section_exercise_quiz {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.section_exercise_quiz a {
+    min-width: 200px;
+    flex: 1;
+    padding: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media all and (min-width:1000px) {
+    .section_exercise_quiz {
+        gap: 70px
+    }
+}
